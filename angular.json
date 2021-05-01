@@ -27,6 +27,8 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
+              "node_modules/flexboxgrid/css/flexboxgrid.css",
               "src/styles.scss"
             ],
             "scripts": [],
@@ -35,7 +37,12 @@
             "buildOptimizer": false,
             "sourceMap": true,
             "optimization": false,
-            "namedChunks": true
+            "namedChunks": true,
+            "allowedCommonJsDependencies": [
+              "big-integer",
+              "object-path",
+              "typescript-collections"
+            ]
           },
           "configurations": {
             "production": {
